@@ -21,8 +21,9 @@ MVP(최소 기능 제품)부터 점진적으로 기능을 확장해 나가고 �
 ---
 
 ## 📂 폴더 구조
-``` bash
-my-blog/
+
+```bash
+blog/
 ├── content/ # 블로그 포스트 (MDX)
 │ └── posts/
 ├── src/
@@ -35,6 +36,7 @@ my-blog/
 ├── tailwind.config.ts
 ├── next.config.mjs
 ```
+
 ---
 
 ## 🚀 실행 방법
@@ -46,10 +48,13 @@ yarn install
 # 개발 서버 실행
 yarn dev
 ```
+
 ## 📦 배포
+
 Vercel을 통해 GitHub 연동으로 자동 배포됩니다.
 
 ## 📜 컨벤션
+
 커밋 메시지: Conventional Commits 기반
 
 폴더/컴포넌트명: PascalCase
@@ -59,6 +64,7 @@ Vercel을 통해 GitHub 연동으로 자동 배포됩니다.
 스타일 클래스: Tailwind Utility 기준
 
 ## ✨ 프로젝트 목표
+
 - 프론트엔드 개발자로서의 성장 기록
 - 커스터마이징 가능한 구조 설계
 - 디자인 시스템 기반 UI 구성
