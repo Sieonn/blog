@@ -2,4 +2,52 @@
     --background: 0 0% 100%;
     --foreground: 216% 23% 13%;
     --primary: 229% 83% 68%;
+
+    /* 추가 색상 변수 */
+    --secondary: 210 16% 82%;
+    --accent: 340 82% 52%;
+    --error: 0 80% 60%;
+    --success: 142 71% 45%;
+    --warning: 36 100% 50%;
+
+    /* 폰트 */
+    --font-family: 'Pretendard', 'Noto Sans KR', Arial, sans-serif;
+    --font-size-base: 16px;
+    --font-size-lg: 1.25rem;
+    --font-size-sm: 0.875rem;
+
+    /* 간격 */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+
+    /* 테두리 */
+    --border-radius: 8px;
+    --border-color: 220 13% 91%;
+}
+
+/* 글로벌 리셋 및 기본 스타일 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+}
+
+a {
+    color: hsl(var(--primary));
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover {
+    color: hsl(var(--accent));
 }
